@@ -5,7 +5,7 @@ metadata:
 spec:
   template:
     spec:
-      repository: warolv/github-actions-series
+      repository: jwide/github-actions-series
       labels:
       - sh-k8s-runner
       resources:
@@ -26,4 +26,4 @@ spec:
   metrics:
   - type: TotalNumberOfQueuedAndInProgressWorkflowRuns
     repositoryNames:
-    - warolv/github-actions-series
+    - jwide/github-actions-series
